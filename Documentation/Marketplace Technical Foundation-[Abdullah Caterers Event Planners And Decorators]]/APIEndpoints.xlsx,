@@ -1,0 +1,46 @@
+Planning API Requirements
+
+ENDPOINT NAME: /catering
+
+
+Method: GET
+Description: Fetches the catering menus & deals to be rendered.
+Response Example:
+{ "id": "1", "name": "BBQ Grilla", "details": "Chicken biryani, Behari boti, Seekh Kababs, Gola Kababs, Pasta, Salad", "price": "$90" }
+
+ENDPOINT NAME: /decoration
+
+Method: GET
+Description: Fetches the decoration steps info.
+Response Example:
+{ "id": "2", "name": "Engagement Pleasure", "details": "A modern Golden-Black theme with an innovative visual background of the stage contrasting A Gota's Piece", "price": "$150" }
+
+ENDPOINT NAME: /reservation
+
+Method: GET
+Description: Fetches the location of Reservation.
+Response Example:
+{ "id": "3", "name": "Loft 59", "details": "A scenic beauty environment with the sparkling sea water just ahead" }
+
+ENDPOINT NAME: /bookingHotels
+
+
+
+Method: GET
+Description: Fetches details about the hotels for booking.
+Response Example:
+{ "id": "4", "name": "PC HOTEL", "details": "3 rooms air-conditioned, centralized temperature with the majestic view of Airport from the window" }
+
+ENDPOINT NAME: /customers
+
+Method: GET and POST
+Description: It fetches or Posts fields to Customers.
+Response Example:
+{ customers(id, name, email address, phone no.) }
+
+ENDPOINT NAME: /orders
+
+Method: POST
+Description: It adds new Orders of the Customers.
+Response Example:
+{ OrderId, CustomerId, ServiceId, OrderStatus, OrderDate, Rental Duration, Product Condition }

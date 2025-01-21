@@ -1,0 +1,12 @@
+Case ID,Test Description,Expected Outcome,Actual Outcome,Status
+TC001,Cart items add/remove,Items should be added to cart and removed properly.,Pass,Passed
+TC002,Dynamic routing for product detail,"On clicking a product, user should be redirected to the respective detail page.",Pass,Passed
+TC003,User login with valid/invalid credentials,"Valid credentials should authenticate the user, invalid credentials should show error.",Pass,Passed
+TC004,Content from Sanity,Sanity API should provide correct content for product listings.,Pass,Passed
+TC005,Checkout functionality,User should be able to complete checkout with valid inputs.,Pass,Passed
+TC006,Search functionality,Search should return relevant results based on input.,Pass,Passed
+TC007,Responsive design,"Website should render correctly on desktop, tablet, and mobile devices.",Pass,Passed
+TC008,Cart persistence on page reload,Cart items should persist after a page reload.,Pass,Passed
+TC009,API error handling,System should handle API errors gracefully and show appropriate messages to users.,Pass,Passed
+TC010,Unauthorized access to admin panel,Unauthorized users should not be able to access admin panel.,Pass,Passed
+TC011,Image loading optimization,Images should load correctly and be optimized for performance.,skip,skipped
